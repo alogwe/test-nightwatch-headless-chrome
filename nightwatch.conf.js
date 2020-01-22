@@ -77,10 +77,10 @@ module.exports = {
           // w3c: false,
           // More info on Chromedriver: https://sites.google.com/a/chromium.org/chromedriver/
           args: [
-            //'--no-sandbox',
+            '--no-sandbox',
             //'--ignore-certificate-errors',
             //'--allow-insecure-localhost',
-            //'--headless'
+            '--headless'
           ]
         }
       },
@@ -90,7 +90,7 @@ module.exports = {
         port: 9515,
         server_path: (Services.chromedriver ? Services.chromedriver.path : ''),
         cli_args: [
-          // --verbose
+          '--verbose'
         ]
       }
     },
