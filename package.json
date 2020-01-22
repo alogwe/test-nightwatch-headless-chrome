@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "e2etest": "nightwatch"
+    "e2etest": "nightwatch",
+    "e2etest:firefox": "nightwatch --env firefox"
   },
   "author": "",
   "license": "ISC",

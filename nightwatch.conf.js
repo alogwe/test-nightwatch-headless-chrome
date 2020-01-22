@@ -52,8 +52,8 @@ module.exports = {
           // acceptInsecureCerts: true,
           'moz:firefoxOptions': {
             args: [
-              // '-headless',
-              // '-verbose'
+              '-headless',
+              '-verbose'
             ],
           }
         }
@@ -64,7 +64,7 @@ module.exports = {
         server_path: (Services.geckodriver ? Services.geckodriver.path : ''),
         cli_args: [
           // very verbose geckodriver logs
-          // '-vv'
+          '-vv'
         ]
       }
     },
