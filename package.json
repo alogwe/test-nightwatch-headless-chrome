@@ -1,0 +1,18 @@
+{
+  "name": "test-nightwatch-headless-chrome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2etest": "nightwatch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^79.0.0",
+    "geckodriver": "^1.19.1",
+    "nightwatch": "^1.3.2",
+    "selenium-server": "^3.141.59"
+  }
+}
